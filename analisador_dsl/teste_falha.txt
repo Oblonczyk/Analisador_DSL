@@ -1,0 +1,2 @@
+define_combo(name="atropelo_de_harley", sequence=[down, right punch], points=5)
+update_score(wins_p1=0, wins_p2=0)
