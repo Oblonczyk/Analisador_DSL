@@ -1,0 +1,4 @@
+define_combo(name="arremesso-de-melancia", sequence=[down, right, punch], points=10)
+define_combo(name="barrigada_mortal", sequence=[right, down, right, punch], points=15)
+execute_combo(player=player_1, sequence=[down, right, punch])
+update_score(wins_p1=1, wins_p2=0)
